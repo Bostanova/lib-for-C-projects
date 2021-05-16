@@ -8,11 +8,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-size_t  ft_strlcat(char *dst, char *src, size_t dstsize)
+size_t	ft_strlcat(char *dst, char *src, size_t dstsize)
 {
-	size_t i;
-	size_t j;
-	size_t k;
+	size_t	i;
+	size_t	j;
+	size_t	k;
 
 	i = 0;
 	while (dst[i] && i < dstsize)
