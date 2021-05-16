@@ -20,5 +20,7 @@ size_t	ft_strlcpy(char *dst, char *src, size_t dstsize);
 size_t	ft_strlcat(char *dst, char *src, size_t dstsize);
 char	*ft_strchr(char *s, int c);
 char	*ft_strrchr(char *s, int c);
+void	ft_bzero(void *s, size_t n);
+
 
 #endif
