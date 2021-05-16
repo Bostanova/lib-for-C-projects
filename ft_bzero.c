@@ -2,7 +2,7 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	int		i;
+	size_t	i;
 	char	*tmp;
 
 	tmp = (char *)s;
@@ -15,6 +15,6 @@ void	ft_bzero(void *s, size_t n)
 			i++;
 			n--;
 		}
-		s = tmp;
+		s = (void *)tmp;
 	}
 }
