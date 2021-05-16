@@ -6,6 +6,7 @@
 
 void	ft_putchar(char c);
 void	ft_putchar_nl(void);
+void	ft_putstr(char *str);
 size_t	ft_strlen(char *str);
 int		ft_isdigit(int c);
 int		ft_islower(int c);
@@ -24,5 +25,6 @@ char	*ft_strrchr(char *s, int c);
 void	ft_bzero(void *s, size_t n);
 void	*ft_memset(void *b, int c, size_t len);
 void	*ft_memcpy(void *dst, const void *src, size_t n);
+void	*ft_memccpy(void *dst, const void *src, int c, size_t n);
 
 #endif
