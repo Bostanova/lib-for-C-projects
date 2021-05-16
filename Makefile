@@ -4,13 +4,13 @@ NAME = libft.a
 
 INCLUDE = libft.h
 
-SRC =	ft_isdigit.c ft_islower.c ft_isupper.c ft_isalpha.c\
-		ft_isalnum.c ft_isascii.c ft_isspace.c  \
+SRC =	ft_isdigit.c ft_islower.c ft_isupper.c ft_isalpha.c \
+		ft_isalnum.c ft_isascii.c ft_isspace.c \
 		ft_isprint.c ft_tolower.c ft_toupper.c \
-		ft_strlcpy.c ft_strlcat.c ft_strchr.c ft_strrchr.c\
-		ft_strlen.c ft_putchar.c ft_putchar_nl.c\
+		ft_strlcpy.c ft_strlcat.c ft_strchr.c ft_strrchr.c \
+		ft_strlen.c ft_putchar.c ft_putchar_nl.c \
 		ft_bzero.c \
-		ft_memset.c 
+		ft_memset.c ft_memcpy.c
 
 		
 OBJ = $(SRC:.c=.o)
