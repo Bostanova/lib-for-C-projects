@@ -9,6 +9,7 @@ void	ft_putchar_nl(void);
 void	ft_putstr(char *str);
 void	ft_putnbr(int nbr);
 void	ft_putchar_fd(char c, int fd);
+void	ft_putstr_fd(char *str, int fd);
 size_t	ft_strlen(char *str);
 int		ft_isdigit(int c);
 int		ft_islower(int c);
