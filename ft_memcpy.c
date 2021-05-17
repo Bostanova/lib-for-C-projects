@@ -1,5 +1,12 @@
 #include "libft.h"
 
+/* ************************************************************************** */
+/*                                                                            */
+/*   Copy n byte from src to dst.                                             */
+/*   Return pointer to dst                                                    */
+/*                                                                            */
+/* ************************************************************************** */
+
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
 	size_t		i;
