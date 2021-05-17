@@ -2,8 +2,8 @@
 
 /* ************************************************************************** */
 /*                                                                            */
-/*   Copy n byte from src to dst before finding char c                        */
-/*   Return pointer to dst after char c                                       */
+/*   Copy n byte from src to dst before finding char c.If overlap,            */
+/*   behavior is undefined. Return pointer to dst after char c                */
 /*                                                                            */
 /* ************************************************************************** */
 
