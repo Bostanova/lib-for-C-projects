@@ -11,7 +11,8 @@ SRC =	ft_isdigit.c ft_islower.c ft_isupper.c ft_isalpha.c \
 		ft_putchar.c ft_putchar_nl.c ft_putstr.c \
 		ft_strlen.c \
 		ft_bzero.c \
-		ft_memset.c ft_memcpy.c ft_memccpy.c ft_memmove.c
+		ft_memset.c ft_memcpy.c ft_memccpy.c ft_memmove.c \
+		ft_memchr.c ft_memcmp.c 
 		
 OBJ = $(SRC:.c=.o)
 
