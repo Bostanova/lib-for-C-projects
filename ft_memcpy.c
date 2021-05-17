@@ -2,16 +2,16 @@
 
 /* ************************************************************************** */
 /*                                                                            */
-/*   Copy n byte from src to dst.                                             */
+/*   Copy n byte from src to dst. If overlap, behavior is undefined           */
 /*   Return pointer to dst                                                    */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
-	size_t		i;
-	char		*dst_tmp;
-	const char	*src_tmp;
+	size_t				i;
+	unsigned char		*dst_tmp;
+	const unsigned char	*src_tmp;
 
 	dst_tmp = dst;
 	src_tmp = src;
