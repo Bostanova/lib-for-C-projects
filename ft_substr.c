@@ -1,8 +1,8 @@
 #include "libft.h"
 
-/*  Allocates (with malloc(3)) and returns a substring from the string ’s’. 
+/*  Allocates with malloc and returns a substring from the string ’s’. 
 	The substring begins at index ’start’ and is of maximum size ’len’.
-	Return the substring or NULL, if the allocation fails.                  */
+	Return the substring or NULL, if the allocation fails.           */
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
