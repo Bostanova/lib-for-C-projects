@@ -17,7 +17,7 @@ char	*ft_strstr(const char *haystack, const char *needle)
 	s2 = (char *)needle;
 	if (s2[0] == '\0')
 		return (s1);
-	res = ft_strrchr(s1, s2[0]);
+	res = ft_strchr(s1, s2[0]);
 	if (res)
 	{
 		cmp = ft_strncmp(res, s2, (ft_strlen(s2)));

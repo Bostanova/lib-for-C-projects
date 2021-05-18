@@ -8,7 +8,7 @@ SRC =	ft_isdigit.c ft_islower.c ft_isupper.c ft_isalpha.c \
 		ft_isalnum.c ft_isascii.c ft_isspace.c \
 		ft_isprint.c ft_tolower.c ft_toupper.c \
 		ft_strlcpy.c ft_strlcat.c ft_strchr.c ft_strrchr.c \
-		ft_strcmp.c ft_strncmp.c ft_strstr.c \
+		ft_strcmp.c ft_strncmp.c ft_strstr.c ft_strnstr.c \
 		ft_strjoin.c \
 		ft_putchar.c ft_putendl.c ft_putstr.c ft_putnbr.c \
 		ft_putchar_fd.c ft_putstr_fd.c ft_putnbr_fd.c ft_putendl_fd.c\
