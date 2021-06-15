@@ -13,7 +13,7 @@ void	*ft_realloc(void *ptr, size_t size)
 	res = (char *)malloc(size);
 	if (res)
 	{
-		while(i < size && ptr_cast[i])
+		while (i < size && ptr_cast[i])
 		{
 			res[i] = ptr_cast[i];
 			i++;
